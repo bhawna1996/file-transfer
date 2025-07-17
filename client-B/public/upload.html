@@ -1,0 +1,47 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Send file to Client B</title>
+</head>
+<body>
+  <h2>Send file  to Client B</h2>
+  <form id="uploadForm" enctype="multipart/form-data" method="post" action="/upload">
+    <input type="file" name="chunk" />
+    <button type="submit">Upload</button>
+  </form>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload File to Client A</title>
+</head>
+<body>
+  <h2>Upload File to Trigger Client A</h2>
+  <input type="file" id="fileInput" />
+  <button onclick="upload()">Send</button>
+
+  <script>
+    async function upload() {
+      const input = document.getElementById('fileInput');
+      const file = input.files[0];
+      if (!file) return alert('No file selected.');
+
+      const formData = new FormData();
+      formData.append('file', file);
+
+      try {
+        const res = await fetch('http://localhost:4000/api/send', {
+          method: 'POST',
+          body: formData
+        });
+        const msg = await res.text();
+        alert(msg);
+      } catch (err) {
+        alert('Failed: ' + err.message);
+      }
+    }
+  </script>
+</body>
+</html>

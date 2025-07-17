@@ -1,0 +1,20 @@
+[2025-07-17T06:37:20.195Z] Split file into 1 chunks
+[2025-07-17T06:37:20.195Z] Manifest file created and saved
+[2025-07-17T06:37:20.220Z] Manifest sent to Client B
+[2025-07-17T06:37:20.230Z] ✅ Uploaded chunks/samplefile.dat.chunk0
+[2025-07-17T06:37:20.230Z] All chunks attempted. Please trigger reassembly on Client B.
+[2025-07-17T06:39:46.500Z] Split file into 1 chunks
+[2025-07-17T06:39:46.501Z] Manifest file created and saved
+[2025-07-17T06:39:46.527Z] Manifest sent to Client B
+[2025-07-17T06:39:46.536Z] ✅ Uploaded chunks/samplefile.dat.chunk0
+[2025-07-17T06:39:46.537Z] All chunks attempted. Please trigger reassembly on Client B.
+[2025-07-17T06:41:11.815Z] Split file into 1 chunks
+[2025-07-17T06:41:11.816Z] Manifest file created and saved
+[2025-07-17T06:41:11.843Z] Manifest sent to Client B
+[2025-07-17T06:41:11.853Z] ✅ Uploaded chunks/samplefile.dat.chunk0
+[2025-07-17T06:41:11.854Z] All chunks attempted. Please trigger reassembly on Client B.
+[2025-07-17T06:41:50.431Z] Split file into 1 chunks
+[2025-07-17T06:41:50.432Z] Manifest file created and saved
+[2025-07-17T06:41:50.452Z] Manifest sent to Client B
+[2025-07-17T06:41:50.463Z] Uploaded chunks/samplefile.dat.chunk0
+[2025-07-17T06:41:50.463Z] All chunks attempted.
