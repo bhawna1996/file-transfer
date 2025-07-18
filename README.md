@@ -1,5 +1,5 @@
 # file-transfer
-Send file to client B to client B
+Send file from client A to client B
 -- Client A (Sender)
 
 Split the 1 GB file into 100 MB chunks.
