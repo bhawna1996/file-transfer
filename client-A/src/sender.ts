@@ -9,8 +9,10 @@ import path from 'path';
 const SERVER_URL = 'http://localhost:3000'; // Receiver server (Client B)
 
 async function run() {
-  console.log('Starting Client A (Sender)...', process.argv[2]);
-  const inputFile = './samplefile.dat';
+  // const inputFile = './assets/Developer.dat';
+  const inputFile = path.join(__dirname, '..', 'src', 'assets', 'Developer.pdf');
+  console.log('Starting Client A (Sender)...', inputFile);
+
   if (!fs.existsSync(inputFile)) {
     console.error('Input file not found.');
     process.exit(1);

@@ -18,3 +18,13 @@
 [2025-07-17T06:41:50.452Z] Manifest sent to Client B
 [2025-07-17T06:41:50.463Z] Uploaded chunks/samplefile.dat.chunk0
 [2025-07-17T06:41:50.463Z] All chunks attempted.
+[2025-07-17T12:43:55.678Z] Split file into 1 chunks
+[2025-07-17T12:43:55.681Z] Manifest file created and saved
+[2025-07-17T12:43:55.740Z] Manifest sent to Client B
+[2025-07-17T12:43:55.756Z] Uploaded chunks/Developer.dat.chunk0
+[2025-07-17T12:43:55.756Z] All chunks attempted.
+[2025-07-17T12:44:25.064Z] Split file into 1 chunks
+[2025-07-17T12:44:25.065Z] Manifest file created and saved
+[2025-07-17T12:44:25.084Z] Manifest sent to Client B
+[2025-07-17T12:44:25.093Z] Uploaded chunks/Developer.pdf.chunk0
+[2025-07-17T12:44:25.093Z] All chunks attempted.

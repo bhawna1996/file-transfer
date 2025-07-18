@@ -54,11 +54,11 @@ app.post('/upload', upload.single('chunk'), (req, res) => {
   const isValid = verifyChunk(chunk.path, expected.hash);
 
   if (!isValid) {
-    console.error(`Chunk ${chunk.originalname} hash mismatch. Re-requesting...`);
+    console.error(`Chunk ${chunk.originalname} hash mismatch.`);
     return res.status(400).send('Hash mismatch');
   }
 
-  console.log(`Received and verified: ${chunk.originalname}`);
+  log(`Received and verified: ${chunk.originalname}`);
   res.sendStatus(200);
 });
 
